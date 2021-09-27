@@ -1,26 +1,16 @@
 {
   "name": "gamegg-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ihsnmuh/gamegg-server.git"
-  },
-  "author": "Muhammad Ihsan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ihsnmuh/gamegg-server/issues"
-  },
-  "homepage": "https://github.com/ihsnmuh/gamegg-server#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "faker": "^5.5.3",
-    "mongodb": "^4.1.2",
-    "mongoose": "^6.0.7"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1"
   }
 }
